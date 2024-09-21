@@ -10,7 +10,7 @@
 .header-link {
   text-decoration: none;
   margin-right: 10px;
-  color:black;
+  color: black;
   font-size: 18px;
 }
 
@@ -49,7 +49,7 @@
 
 .imgDiv h3 {
   text-align: center;
-  color:Red;
+  color: Red;
 }
 
 .imgDiv p {
@@ -57,19 +57,19 @@
   text-align: center;
 }
 
-.imgDiv .pricePurchaseDiv{
+.imgDiv .pricePurchaseDiv {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
-.imgDiv .price{
+.imgDiv .price {
   color: red;
   font-size: 28px;
 }
 
-.imgDiv .purchase{
+.imgDiv .purchase {
   padding: 15px 10px;
   color: white;
   width: 100px;
@@ -85,20 +85,20 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
-} 
-
-.footerList{
-  list-style-type: none;  
 }
 
-.footerList li{
-  margin-top:10px;
+.footerList {
+  list-style-type: none;
 }
 
-.footerList a{
+.footerList li {
+  margin-top: 10px;
+}
+
+.footerList a {
   text-decoration: none;
-  color:black;
-  font-size:18px;
+  color: black;
+  font-size: 18px;
 }
 
 .mobilicon {
@@ -106,10 +106,13 @@
 }
 
 @media screen and (max-width: 600px) {
- 
   .imgDiv {
-    margin-bottom: 30px;
     width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .imgMainDiv {
+    flex-direction: column;
   }
 
   .flex {
@@ -140,5 +143,9 @@
     justify-content: center;
     align-items: flex-start;
   }
-}
 
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+}
