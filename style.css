@@ -18,6 +18,10 @@
   font-size: 18px;
 }
 
+.headerimg{
+  cursor: pointer;
+}
+
 .image {
   background-image: url("banner.jpg");
   height: 400px;
